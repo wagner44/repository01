@@ -19,7 +19,7 @@
             width: 160px;
             height: 80px;
             line-height: 80px;
-            text-align: center;
+            text-align:;
         }
         .blockX {
             width: 320px;
@@ -30,39 +30,48 @@
         .black {background: #202020}
         .row { display: flex; }
         .container { outline: 1px solid #000000; }
+        .text {
+             font-size: 30px;
+             font-family: Centaur;
+         }
+        .text2 {
+            font-size: 30px;
+            font-family: Centaur;
+            color: #FFFFFF;
+        }
     </style>
 </head>
 <body>
     <div class="block1">
-        <div class="blockX black"> </div>
+        <div class="blockX black text2"> </div>
         <div class="row">
-            <div class="block2 gray container">C</div>
-            <div class="block2 gray container"></div>
-            <div class="block2 gray container">%</div>
-            <div class="block2 orange container">÷</div>
+            <div class="block2 gray container text">C</div>
+            <div class="block2 gray container text"></div>
+            <div class="block2 gray container text">%</div>
+            <div class="block2 orange container text2">÷</div>
         </div>
         <div class="row">
-            <div class="block2 gray container">7</div>
-            <div class="block2 gray container">8</div>
-            <div class="block2 gray container">9</div>
-            <div class="block2 orange container">×</div>
+            <div class="block2 gray container text">7</div>
+            <div class="block2 gray container text">8</div>
+            <div class="block2 gray container text">9</div>
+            <div class="block2 orange container text2">×</div>
         </div>
         <div class="row">
-            <div class="block2 gray container">4</div>
-            <div class="block2 gray container">5</div>
-            <div class="block2 gray container">6</div>
-            <div class="block2 orange container">-</div>
+            <div class="block2 gray container text">4</div>
+            <div class="block2 gray container text">5</div>
+            <div class="block2 gray container text">6</div>
+            <div class="block2 orange container text2">-</div>
         </div>
         <div class="row">
-            <div class="block2 gray container">1</div>
-            <div class="block2 gray container">2</div>
-            <div class="block2 gray container">3</div>
-            <div class="block2 orange container">+</div>
+            <div class="block2 gray container text">1</div>
+            <div class="block2 gray container text">2</div>
+            <div class="block2 gray container text">3</div>
+            <div class="block2 orange container text2">+</div>
         </div>
         <div class="row">
-            <div class="gray container block0">0</div>
-            <div class="block2 gray container">.</div>
-            <div class="block2 orange container">=</div>
+            <div class="gray container block0 text">0</div>
+            <div class="block2 gray container text">.</div>
+            <div class="block2 orange container text2">=</div>
         </div>
     </div>
 </body>
