@@ -3,8 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
+    <style>
+        .block1 {
+            width: 320px;
+            height: 586px;
+        }
+
+        .block2 {
+            width: 80px;
+            height: 80px;
+        }
+        .block0 {
+            width: 160px;
+            height: 80px;
+        }
+        .blockX {
+            width: 320px;
+            height: 186px;
+        }
+        .gray {background: #cacbcc}
+        .orange {background: #f79012}
+        .black {background: #202020}
+        .row { display: flex; }
+        .container { outline: 1px solid #000000; }
+    </style>
 </head>
 <body>
-<!--tets-->
+    <div class="block1">
+        <div class="blockX black"> </div>
+        <div class="row">
+            <div class="block2 gray container">C</div>
+            <div class="block2 gray container"></div>
+            <div class="block2 gray container">%</div>
+            <div class="block2 orange container">÷</div>
+        </div>
+        <div class="row">
+            <div class="block2 gray container">7</div>
+            <div class="block2 gray container">8</div>
+            <div class="block2 gray container">9</div>
+            <div class="block2 orange container">×</div>
+        </div>
+        <div class="row">
+            <div class="block2 gray container">4</div>
+            <div class="block2 gray container">5</div>
+            <div class="block2 gray container">6</div>
+            <div class="block2 orange container">-</div>
+        </div>
+        <div class="row">
+            <div class="block2 gray container">1</div>
+            <div class="block2 gray container">2</div>
+            <div class="block2 gray container">3</div>
+            <div class="block2 orange container">+</div>
+        </div>
+        <div class="row">
+            <div class="gray container block0">0</div>
+            <div class="block2 gray container">.</div>
+            <div class="block2 orange container">=</div>
+        </div>
+    </div>
 </body>
 </html>
