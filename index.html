@@ -3,76 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
-    <style>
-        .block1 {
-            width: 320px;
-            height: 586px;
-        }
-
-        .block2 {
-            width: 80px;
-            height: 80px;
-            line-height: 80px;
-            text-align: center;
-        }
-        .block0 {
-            width: 160px;
-            height: 80px;
-            line-height: 80px;
-            text-align:;
-        }
-        .blockX {
-            width: 320px;
-            height: 186px;
-        }
-        .gray {background: #cacbcc}
-        .orange {background: #f79012}
-        .black {background: #202020}
-        .row { display: flex; }
-        .container { outline: 1px solid #000000; }
-        .text {
-             font-size: 30px;
-             font-family: Centaur;
-         }
-        .text2 {
-            font-size: 30px;
-            font-family: Centaur;
-            color: #FFFFFF;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <div class="block1">
-        <div class="blockX black text2"> </div>
-        <div class="row">
-            <div class="block2 gray container text">C</div>
-            <div class="block2 gray container text"></div>
-            <div class="block2 gray container text">%</div>
-            <div class="block2 orange container text2">÷</div>
-        </div>
-        <div class="row">
-            <div class="block2 gray container text">7</div>
-            <div class="block2 gray container text">8</div>
-            <div class="block2 gray container text">9</div>
-            <div class="block2 orange container text2">×</div>
-        </div>
-        <div class="row">
-            <div class="block2 gray container text">4</div>
-            <div class="block2 gray container text">5</div>
-            <div class="block2 gray container text">6</div>
-            <div class="block2 orange container text2">-</div>
-        </div>
-        <div class="row">
-            <div class="block2 gray container text">1</div>
-            <div class="block2 gray container text">2</div>
-            <div class="block2 gray container text">3</div>
-            <div class="block2 orange container text2">+</div>
-        </div>
-        <div class="row">
-            <div class="gray container block0 text">0</div>
-            <div class="block2 gray container text">.</div>
-            <div class="block2 orange container text2">=</div>
-        </div>
+<div class="block1">
+    <div class="blockX color-black text-white"> </div>
+    <div class="row">
+        <div class="block2 color-gray outline text-black">C</div>
+        <div class="block2 color-gray outline text-black">±</div>
+        <div class="block2 color-gray outline text-black">%</div>
+        <div class="block2 color-orange outline text-white">÷</div>
     </div>
+    <div class="row">
+        <div class="block2 color-gray outline text-black">7</div>
+        <div class="block2 color-gray outline text-black">8</div>
+        <div class="block2 color-gray outline text-black">9</div>
+        <div class="block2 color-orange outline text-white">×</div>
+    </div>
+    <div class="row">
+        <div class="block2 color-gray outline text-black">4</div>
+        <div class="block2 color-gray outline text-black">5</div>
+        <div class="block2 color-gray outline text-black">6</div>
+        <div class="block2 color-orange outline text-white">-</div>
+    </div>
+    <div class="row">
+        <div class="block2 color-gray outline text-black">1</div>
+        <div class="block2 color-gray outline text-black">2</div>
+        <div class="block2 color-gray outline text-black">3</div>
+        <div class="block2 color-orange outline text-white">+</div>
+    </div>
+    <div class="row">
+        <div class="color-gray outline block0 text-black">0</div>
+        <div class="block2 color-gray outline text-black">.</div>
+        <div class="block2 color-orange outline text-white">=</div>
+    </div>
+</div>
 </body>
 </html>
