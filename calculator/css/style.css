@@ -27,6 +27,10 @@ html, body {
   background-color: #202020;
 }
 
+.result-container {
+  margin: 5px 10px;
+}
+
 .block-main2 {
   display: flex;
   flex: 1;
