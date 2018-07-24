@@ -20,29 +20,25 @@ html, body {
 }
 
 .block-display {
-  width: 320px;
-  height: 168px;
   display: flex;
+  flex: 2;
   flex-direction: column;
   outline: 0.5px solid #000000;
   background-color: #202020;
 }
 
 .block-main2 {
-  width: 320px;
-  height: 80px;
   display: flex;
+  flex: 1;
 }
 
 .button1 {
   flex: 1;
-  height: 100%;
   outline: 0.5px solid #000000;
 }
 
 .button0 {
   flex: 2;
-  height: 100%;
   outline: 0.5px solid #000000;
   background-color: #cacbcc;
 }
@@ -74,8 +70,6 @@ html, body {
   width: 100%;
   height: 100%;
   font-size: 30px;
-  text-align: center;
-  line-height: 250%;
 }
 
 .ghost-button0 {
@@ -87,5 +81,4 @@ html, body {
   font-size: 30px;
   text-align: justify;
   text-indent: 18%;
-  line-height: 250%;
 }
