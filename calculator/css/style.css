@@ -86,3 +86,11 @@ html, body {
   text-align: justify;
   text-indent: 18%;
 }
+.ghost-display{
+  border: medium none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  font-size: 60px;
+}

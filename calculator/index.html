@@ -4,41 +4,44 @@
     <meta charset="UTF-8">
     <title>Calculator</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="javascript.js"></script>
   </head>
   <body>
     <div class="wrapper">
       <div class="block-main">
         <div class="block-display text-on-display">
-          <div class="result-container">12</div>
+          <div class="result-container">
+            <button class="ghost-display" value="0" id="display"></button>
+        </div>
         </div>
         <div class="block-main2">
-          <div class="button1 block-gray"><button class="ghost-button">C</button></div>
-          <div class="button1 block-gray"><button class="ghost-button">±</button></div>
-          <div class="button1 block-gray"><button class="ghost-button">%</button></div>
-          <div class="button1 block-orange"><button class="ghost-button txt-white">÷</button></div>
+          <div class="button1 block-gray"><button class="ghost-button" id="clearBtn">C</button></div>
+          <div class="button1 block-gray"><button class="ghost-button operations">±</button></div>
+          <div class="button1 block-gray"><button class="ghost-button operations">%</button></div>
+          <div class="button1 block-orange"><button class="ghost-button txt-white operations">÷</button></div>
         </div>
         <div class="block-main2">
-          <div class="button1 block-gray"><button class="ghost-button">7</button></div>
-          <div class="button1 block-gray"><button class="ghost-button">8</button></div>
-          <div class="button1 block-gray"><button class="ghost-button">9</button></div>
-          <div class="button1 block-orange"><button class="ghost-button txt-white">×</button></div>
+          <div class="button1 block-gray"><button class="ghost-button number">7</button></div>
+          <div class="button1 block-gray"><button class="ghost-button number">8</button></div>
+          <div class="button1 block-gray"><button class="ghost-button number">9</button></div>
+          <div class="button1 block-orange"><button class="ghost-button txt-white operations">×</button></div>
         </div>
         <div class="block-main2">
-          <div class="button1 block-gray"><button class="ghost-button">4</button></div>
-          <div class="button1 block-gray"><button class="ghost-button">5</button></div>
-          <div class="button1 block-gray"><button class="ghost-button">6</button></div>
-          <div class="button1 block-orange"><button class="ghost-button txt-white">-</button></div>
+          <div class="button1 block-gray"><button class="ghost-button number" value="4"></button></div>
+          <div class="button1 block-gray"><button class="ghost-button number">5</button></div>
+          <div class="button1 block-gray"><button class="ghost-button number">6</button></div>
+          <div class="button1 block-orange"><button class="ghost-button txt-white operations">-</button></div>
         </div>
         <div class="block-main2">
-          <div class="button1 block-gray"><button class="ghost-button">1</button></div>
-          <div class="button1 block-gray"><button class="ghost-button">2</button></div>
-          <div class="button1 block-gray"><button class="ghost-button">3</button></div>
-          <div class="button1 block-orange"><button class="ghost-button txt-white">+</button></div>
+          <div class="button1 block-gray"><button class="ghost-button number">1</button></div>
+          <div class="button1 block-gray"><button class="ghost-button number">2</button></div>
+          <div class="button1 block-gray"><button class="ghost-button number">3</button></div>
+          <div class="button1 block-orange"><button class="ghost-button txt-white operations">+</button></div>
         </div>
         <div class="block-main2">
-          <div class="button0"><button class="ghost-button0">0</button></div>
-          <div class="button1 block-gray"><button class="ghost-button">.</button></div>
-          <div class="button1 block-orange"><button class="ghost-button txt-white">=</button></div>
+          <div class="button0"><button class="ghost-button0 number">0</button></div>
+          <div class="button1 block-gray"><button class="ghost-button" id="decimalBtn">.</button></div>
+          <div class="button1 block-orange"><button class="ghost-button txt-white" id="resultBtn">=</button></div>
         </div>
       </div>
     </div>
