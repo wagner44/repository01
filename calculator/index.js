@@ -16,7 +16,7 @@ function classbutton() {
         clearBtn = document.getElementById('clearBtn');
         resultBtn = document.getElementById('resultBtn');
         display = document.getElementById('display');
-        //memoryCurrentNumber = 0; //начальное значение
+        //memoryCurrentNumber = 0; //начальное значение.
         //memoryNewNumber = false; //новое число
         //memoryPendingOperation = ''; //несколько операций
 
