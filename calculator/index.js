@@ -1,4 +1,4 @@
-//автозагрузка функций по списку
+//автозагрузка функций по списку.
 document.addEventListener('DOMContentLoaded', function() {
     classbutton();
     numberpress;
