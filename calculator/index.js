@@ -1,7 +1,7 @@
 //автозагрузка функций по списку
 document.addEventListener('DOMContentLoaded', function() {
     classbutton();
-    numberpress;
+    numberpressFuc;
     operationFuc;
     clearFuc;
     resultFuc;
@@ -23,7 +23,7 @@ function classbutton() {
 for (var i=0; i<numbers.length; i++) {
     var number = numbers[i];
     number.addEventListener('click', function (e) {
-        numberpress(e.target.textContent);
+        numberpressFuc(e.target.textContent);
     });
 };
 for (var i=0; i<operations.length; i++) {
@@ -38,30 +38,33 @@ resultBtn.addEventListener('click', resultFuc);
 };
 
 //функции!
-function numberpress (numbers){
+function numberpressFuc (numbers){
     var displayResule;
     displayResule = document.getElementById('displayResule')
-    displayResule.innerHTML += numbers;
+    displayResule.innerHTML = numbers;
     console.log('Клик по кнопке с номером '+ numbers +'');
 };
 function operationFuc (operations){
     var displayResule;
     displayResule = document.getElementById('displayResule')
-    displayResule.innerHTML += operations;
+    displayResule.innerHTML = operations;
     console.log('Клик по кнопке с операцией '+ operations +'');
 };
 function clearFuc (clearBtn){
     var displayResule;
     displayResule = document.getElementById('displayResule')
-    displayResule.innerHTML = '';
-    console.log('Клик по кнопке С');
+    displayResule.innerHTML = 'C';
+    console.log('Клик по кнопке '+ clearBtn +'');
 };
-function resultFuc (argument){
-    console.log('Клик по кнопке result');
+function resultFuc (resultBtn){
+    var displayResule;
+    displayResule = document.getElementById('displayResule')
+    displayResule.innerHTML = '=';
+    console.log('Клик по кнопке '+ resultBtn +'');
 };
 function decimalFuc (decimalBtn){
     var displayResule;
     displayResule = document.getElementById('displayResule')
-    displayResule.innerHTML += '.';
+    displayResule.innerHTML = '.';
     console.log('Клик по кнопке .');
 };
