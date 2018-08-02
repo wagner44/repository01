@@ -1,19 +1,19 @@
-//autoload functions
+// Autoload functions
 document.addEventListener('DOMContentLoaded', function() {
   classButton();
 });
 
 function classButton() {
-  //variables
+  // Variables
   var numbers = document.querySelectorAll('.number');
   operations = document.querySelectorAll('.operations');
   decimalBtn = document.getElementById('decimal-btn');
   clearBtn = document.getElementById('clear-btn');
   equallyBtn = document.getElementById('equally-btn');
   display = document.getElementById('display');
-  //memoryCurrentNumber = 0;
-  //memoryNewNumber = false;
-  //memoryPendingOperation = '';
+  // memoryCurrentNumber = 0;
+  // memoryNewNumber = false;
+  // memoryPendingOperation = '';
 
   for (var i = 0; i < numbers.length; i++) {
     number = numbers[i];
@@ -33,7 +33,7 @@ function classButton() {
   clearBtn.addEventListener('click', clearFunc);
   equallyBtn.addEventListener('click', equallyFunc);
 
-  //functions
+  // Functions
   function numbersFunc(numbers) {
     var displayResult;
     displayResult = document.getElementById('display-result');
