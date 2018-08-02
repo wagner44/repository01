@@ -1,9 +1,9 @@
 //autoload functions
 document.addEventListener('DOMContentLoaded', function() {
   classButton();
-  });
+});
 
-  function classButton() {
+function classButton() {
   //variables
   var numbers = document.querySelectorAll('.number');
   operations = document.querySelectorAll('.operations');
@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', function() {
   for (var i = 0; i < numbers.length; i++) {
     number = numbers[i];
     number.addEventListener('click', function(e) {
-    numbersFunc(e.target.textContent);
+      numbersFunc(e.target.textContent);
     });
   }
 
   for (var i = 0; i < operations.length; i++) {
     operationBtn = operations[i];
     operationBtn.addEventListener('click', function(e) {
-    operationFunc(e.target.textContent);
+      operationFunc(e.target.textContent);
     });
   }
 
