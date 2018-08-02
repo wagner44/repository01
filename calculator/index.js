@@ -22,8 +22,8 @@ function classButton() {
     });
   }
 
-  for (var i = 0; i < operations.length; i++) {
-    operationBtn = operations[i];
+  for (var j = 0; j < operations.length; j++) {
+    operationBtn = operations[j];
     operationBtn.addEventListener('click', function(e) {
       operationFunc(e.target.textContent);
     });
