@@ -1,9 +1,9 @@
 // Autoload functions
 document.addEventListener('DOMContentLoaded', function() {
-  classButton();
+  initializeCalculator();
 });
 
-function classButton() {
+function initializeCalculator() {
   // Variables
   var numbers = document.querySelectorAll('.number');
   operations = document.querySelectorAll('.operations');
